@@ -1,0 +1,57 @@
+#pink{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 25px;     
+      font-style: italic;
+      background: linear-gradient(to top, #DD6795, white);
+      background-size: cover; /* Современные браузеры */
+      background-attachment: fixed;
+
+}
+#dark{
+	  font-family: 'Times New Roman', Times, serif;
+	  font-size: 25px;     
+	  font-style: normal;
+	  background: linear-gradient(to top, #363335, white);
+      background-size: cover; /* Современные браузеры */
+      background-attachment: fixed;
+}
+a {
+    color: #008000; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:visited {
+    color: #800080; /* Цвет посещённой ссылки */
+   } 
+   a:hover {
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
+p{
+    text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+}
+img{
+  text-align: center;
+}
+footer{
+  margin: 5px;
+  font-size: 15px;
+  color: white;
+}
+table{
+  width: 50%;
+  border: 1;
+
+}
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+.scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+.pos{
+  text-align: center;
+}
+.style{
+  font-weight: bold;
+}
